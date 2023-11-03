@@ -1,0 +1,10 @@
+Package: tsutils
+Title: A Utilities Package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tom", "Smith", , "tomsmith_uk@hotmail.com", role = c("aut", "cre"))
+Description: A collection of utilities functions, which will grow over time.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
