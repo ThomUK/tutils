@@ -20,6 +20,9 @@ remotes::install_github("https://github.com/ThomUK/tsutils")
 
 `%not_in%` the inverse of `%in%`
 
+`ts_ts()` timestamp in the form “year month day \_ hour minute second”.
+eg. 20231103_221006
+
 ------------------------------------------------------------------------
 
 END
