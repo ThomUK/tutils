@@ -27,9 +27,9 @@ You can install the development version of tsutils like so:
 remotes::install_github("https://github.com/ThomUK/tsutils")
 ```
 
-## Usage
+## Function listing
 
-Details of main functions to follow
+`%not_in%` the inverse of `%in%`
 
 ---
 
