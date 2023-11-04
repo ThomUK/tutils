@@ -2,8 +2,8 @@ pandoc: 2.19.2
 pkgdown: 2.0.7
 pkgdown_sha: ~
 articles: {}
-last_built: 2023-11-03T23:49Z
+last_built: 2023-11-04T00:08Z
 urls:
-  reference: https://thomuk.github.io/tsutils/reference
-  article: https://thomuk.github.io/tsutils/articles
+  reference: https://thomuk.github.io/tutils/reference
+  article: https://thomuk.github.io/tutils/articles
 
