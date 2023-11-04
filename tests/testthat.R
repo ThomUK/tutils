@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(tsutils)
+library(tutils)
 
-test_check("tsutils")
+test_check("tutils")
