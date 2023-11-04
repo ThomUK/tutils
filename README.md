@@ -1,26 +1,26 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# tsutils
+# tutils
 
-{tsutils} is a utilities package containing helper functions for common
-tasks.
+{tutils} is Tom Utilities. A utilities package containing helper
+functions for common tasks. Your name does not have to be Tom to use it,
+but it might help.
 
 ## Installation
 
-You can install the development version of tsutils like so:
+You can install the development version of tutils like so:
 
 ``` r
-# Install this package from GitHub using the {remotes} package:
 # install.packages("remotes")
-remotes::install_github("https://github.com/ThomUK/tsutils")
+remotes::install_github("https://github.com/ThomUK/tutils")
 ```
 
 ## Function listing
 
 `%not_in%` the inverse of `%in%`
 
-`ts_ts()` timestamp in the form “year month day \_ hour minute second”.
+`t_ts()` timestamp in the form “year month day \_ hour minute second”.
 eg. 20231103_221006
 
 ------------------------------------------------------------------------

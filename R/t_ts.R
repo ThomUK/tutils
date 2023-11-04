@@ -5,6 +5,6 @@
 #' @return string in the format "year month day _ hour minute second"
 #' @export
 #'
-ts_ts <- function(){
+t_ts <- function(){
   format.Date(Sys.time(), format = "%Y%m%d_%H%M%S")
 }
