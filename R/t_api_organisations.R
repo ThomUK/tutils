@@ -13,6 +13,17 @@
 #'
 t_api_organisations <- function(role = "NHS TRUST", include_inactive = FALSE){
 
+  # validate incoming arguments
+  assertthat::assert_that(
+    role %in% c("NHS TRUST", "NHS TRUST SITE", "ICB", "SUB ICB LOCATION", "GP"),
+    msg = "t_api_organisations: The role argument is not one of the allowed options."
+  )
+
+  assertthat::assert_that(
+    include_inactive %in% c(TRUE, FALSE),
+    msg = "t_api_organisations: include_inactive argument must be TRUE or FALSE."
+  )
+
   roleID <- switch(
     role,
     "NHS TRUST" = "RO197",
