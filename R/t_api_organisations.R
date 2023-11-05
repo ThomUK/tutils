@@ -1,4 +1,4 @@
-#' Use the NHS ORD API to fetch a lookup table of active trusts
+#' Use the NHS ORD API to fetch NHS organisations
 #'
 #' Queries the NHS Organisation Data Service API (Organisation Reference Data - ORD)
 #' https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-ord
@@ -11,7 +11,7 @@
 #'
 #' @export
 #'
-t_api_provider_trusts <- function(role = "NHS TRUST", include_inactive = FALSE){
+t_api_organisations <- function(role = "NHS TRUST", include_inactive = FALSE){
 
   roleID <- switch(
     role,
