@@ -18,10 +18,11 @@ remotes::install_github("https://github.com/ThomUK/tutils")
 
 ## Function listing
 
-`%not_in%` the inverse of `%in%`
-
-`t_ts()` timestamp in the form “year month day \_ hour minute second”.
-eg. 20231103_221006
+| Function                | Detail                                                                                                             |
+|:------------------------|:-------------------------------------------------------------------------------------------------------------------|
+| `%not_in%`              | The inverse of %in%                                                                                                |
+| `t_ts()`                | Makes a timestamp in the form “year month day \_ hour minute second”. eg. 20231103_221006                          |
+| `t_api_organisations()` | Queries the Organisation Data Service to get a dataframe continaing details of different types of NHS organisation |
 
 ------------------------------------------------------------------------
 

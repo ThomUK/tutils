@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # tutils
 
-{tutils} is Tom Utilities.  A utilities package containing helper functions for common tasks.  Your name does not have to be Tom to use it, but it might help.
+{tutils} is Tom Utilities. A utilities package containing helper functions for common tasks. Your name does not have to be Tom to use it, but it might help.
 
 ## Installation
 
@@ -28,10 +28,12 @@ remotes::install_github("https://github.com/ThomUK/tutils")
 
 ## Function listing
 
-`%not_in%` the inverse of `%in%`
+| Function                | Detail                                                                                    |
+|:------------------------|:------------------------------------------------------------------------------------------|
+| `%not_in%`              | The inverse of %in%                                                                       |
+| `t_ts()`                | Makes a timestamp in the form "year month day \_ hour minute second". eg. 20231103_221006 |
+| `t_api_organisations()` | Queries the Organisation Data Service to get a dataframe continaing details of different types of NHS organisation |
 
-`t_ts()` timestamp in the form "year month day _ hour minute second". eg. 20231103_221006
-
----
+------------------------------------------------------------------------
 
 END
