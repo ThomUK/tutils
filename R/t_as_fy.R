@@ -9,15 +9,19 @@ t_as_fy <- function(date){
 
   if(!inherits(date, "Date")) stop("The argument 'date' must be of class 'Date'.")
 
-  mth <- format(date, "%m")
-  yr <- as.numeric(format(date, "%Y"))
+  non_vectorised_function <- function(date){
+    mth <- format(date, "%m")
+    yr <- as.numeric(format(date, "%Y"))
 
-  if(mth <= "03") {
-    base_year <- yr - 1
-  } else {
-    base_year <- yr
+    if(mth <= "03") {
+      base_year <- yr - 1
+    } else {
+      base_year <- yr
+    }
+
+    result <- paste0(base_year, "/", stringr::str_sub(base_year + 1, start = -2))
   }
 
-  result <- paste0(base_year, "/", stringr::str_sub(base_year + 1, start = -2))
+  purrr::map_chr(date, non_vectorised_function)
 
 }
