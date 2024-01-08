@@ -17,4 +17,5 @@ Imports:
     assertthat,
     glue,
     httr,
+    stringr,
     tidyr
