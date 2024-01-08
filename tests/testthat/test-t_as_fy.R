@@ -22,3 +22,13 @@
       )
 
   })
+
+"it accepts a vector of dates" |>
+  test_that({
+
+    expect_equal(
+      t_as_fy(c(as.Date("2020-03-31"), as.Date("2020-04-01"))),
+      c("2019/20", "2020/21")
+      )
+
+  })
